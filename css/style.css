@@ -62,6 +62,10 @@ body {
     text-align: center;
     padding: 24px;
     margin: 0 auto;
+    /*KNOWLEDGE CHECK ITEM #2 - CENTER DIV HERO-CONTENT*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .aboutme-container {
@@ -100,6 +104,24 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 12px;
+}
+
+/*KNOWLEDGE CHECK ITEM #5 - BONUS - CONTACT SECTION-->*/
+.contact-container {
+    background: #23268b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.contact-content {
+    color: #F1F1F1;
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .projects-item {
@@ -178,7 +200,8 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #333333;
+    /*KNOWLEDGE CHECK ITEM #3 - Change the Hero button :hover colors*/
+    background: #930ad3;
     color: #F1F1F1;
     border: 2px solid #666666;
 }
